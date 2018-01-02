@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+
+<button id="B1">Desaparece el texto 2</button>
+<button id="B2">Desaparece todos los elementos del documento</button>
+
+<div id="texto1">Texto 1 </div>
+<div id="texto2">Texto 2 </div>
+<div id="texto3">Texto 3 </div>
+
+<input type="text" id="espacio"/>
+<input type="submit" id="enviar" value ="Enviar el texto en un mensaje de alerta"/>
+
+<script type="text/javascript"> 
+
+ $(document).ready(function(){ 
+	 $("#B1").click(function() {
+		 $("#texto2").hide();
+	});
+	 
+	 $("#B2").click(function() {
+		 $("*").hide();
+	});
+	 
+	
+	$("#enviar").click(function() {
+		var x = $("#espacio").val();
+		alert(x);
+	});
+	 
+ });
+ 
+</script>
+
+</body>
+</html>
