@@ -1,0 +1,26 @@
+#p1{
+ background: red;
+ height: 60px;
+ width: 60px;
+ border: 2px solid black;
+ border-radius: 8px;
+ text-align: cente;
+}
+
+#p2{
+ background: orange;
+ height: 60px;
+ width: 60px;
+ border: 2px solid black;
+ border-radius: 8px;
+ text-align: cente;
+}
+
+#p3{
+ background: yellow;
+ height: 60px;
+ width: 60px;
+ border: 2px solid black;
+ border-radius: 8px;
+ text-align: cente;
+}
