@@ -1,0 +1,35 @@
+#p1{
+  background: yellow;
+  height: 120px;
+  width: 120px;
+  border-radius: 8px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#p2{
+  background: orange;
+  height: 120px;
+  width: 120px;
+  border-radius: 8px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#p3{
+  background: blue;
+  height: 120px;
+  width: 120px;
+  border-radius: 8px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#p4{
+  background: green;
+  height: 120px;
+  width: 120px;
+  border-radius: 8px;
+  border: 2px solid black;
+  text-align: center;
+}
