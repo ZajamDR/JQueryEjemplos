@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  
+
     $("#B1").click(function(){
         $("p").removeClass("nuevaClase");
     });
@@ -11,6 +11,5 @@ $(document).ready(function(){
     $("#remove").click(function(){
       $("#caja").removeClass("miClase");
     });
-
 
 });
