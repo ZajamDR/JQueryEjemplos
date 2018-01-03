@@ -1,0 +1,17 @@
+#p1{
+  background: yellow;
+  height: 160px;
+  width: 160px;
+  border-radius: 8px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#p2{
+  background: orange;
+  height: 160px;
+  width: 160px;
+  border-radius: 8px;
+  border: 2px solid black;
+  text-align: center;
+}
