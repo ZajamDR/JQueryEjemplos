@@ -12,9 +12,10 @@
 
 <script type="text/javascript">
 
+//this hace referencia a #boton sin necesidad de colocar nuevamente #boton
     $(document).ready(function(){
      $("#boton").click(function(){
-    	 $("#boton").hide(3000).show(500);
+    	 $(this).hide(3000).show(500);
      });
     });
 
