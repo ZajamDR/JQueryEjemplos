@@ -1,0 +1,22 @@
+.miClase{
+    background: #CCCCCC;
+}
+
+form{
+  padding: 10px;
+  background-color: #77BFD4;
+  color: #09404F;
+  font-size: 14px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+input{
+  border: 1px solid #09404F;
+}
+
+#enviar{
+  background: #26689E;
+  color: white;
+  cursor: pointer;
+}
